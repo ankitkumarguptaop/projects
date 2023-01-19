@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1 align="center">Curriculum Vitae</h1>
+    <link rel="stylesheet" href="newSTYLE.css">
+    <title>MyResume</title>
+</head>
+
+<body background="images/white-background-with-diagonal-lines-design_181182-33966.webp">
+    <img src="OIP.jpg" alt="Photo" width="128" height="128" style="float: right;">
+    <div class="Bold">
+      <h3 align="center"> Basic Details</h3>
+      
+
+
+        <br>
+        <ul>
+            <li>Name = Ankit kumar gupta </li>
+            <li>Address = #1234 mauli jagran chandigarh</li>
+            <li>Contact =1111111111</li>
+            <li>Email = email@gmail.com</li>
+        </ul>
+        </div>
+        <br>
+        <hr>
+    <h3>Education</h3>
+
+<div class="class1">
+        <table>
+            <thead>
+             <tr>
+                <th>Course</th>
+                <th>Year</th>
+                <th>Institution</th>
+                <th>Board</th>
+                <th>Status</th>
+                <th>Percentage/CGPA</th>
+             </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>Class 10th</td>
+                <td>2019</td>
+                <td>GMHS vikas nagar chandigarh</td>
+                <td>CBSE</td>
+                <td>Passed</td>
+                <td>80%</td>
+            </tr>
+            <tr>
+                <td>Class 12th</td>
+                <td>2021</td>
+                <td>GMHSS sector- 19 chandigarh</td>
+                <td>CBSE</td>
+                <td>Passed</td>
+                <td>85%</td>
+
+            </tr><tr>
+                <td>BE CSE</td>
+                <td>2022-2025</td>
+                <td>Chandigarh College of Engg. and technogy</td>
+                <td>CBSE</td>
+                <td>currently</td>
+                <td>Not declaired</td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+        <hr>
+        <br>
+        <br>
+
+        <h3>Achievments</h3>
+    <div class="class2">
+        <ul>
+            <li>Clear national means merit scholarship exam 2018 . </li>
+            <li> Create a basic website structure using basic HTML and css for IPD 2022 . </li>
+        </ul>
+    </div>
+    <hr>
+    
+    <h3>Codding/software learn </h3>
+    <div class="class3">
+        <table>
+        <tr>
+            <th>Operating Systems</th>
+            <td>Microsoft Windows</td>
+        </tr>
+            <th>Languages known</th>
+            <td>C,c++,HTML,css</td>
+        </tr>
+            <th>Databases known</th>
+            <td>Mysql</td>
+        </tr>
+            <th>Others</th>
+            <td>Android,Visual Studio, Microsoft Word, Powerpoint, Excel</td>
+        </tr>
+        </table>
+    </div>
+    <hr>
+    <br>
+    <br>
+
+
+    <h3>Hobbies</h3>
+    <ul>
+        <li>Playing online games</li>
+        <li>drawing</li>
+        <li>coding</li>
+    </ul>
+</body>
+</html>
