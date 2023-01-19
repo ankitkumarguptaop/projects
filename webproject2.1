@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newSTYLE.css">
+    <title>lab2</title>
+
+
+
+    <!-- table ,image , form  -->
+    <!-- table class (roll no , name , semester, department ) -->
+    <!-- form name ,semester, department, phoneno, email ,submit  -->
+
+</head>
+
+<body>
+    <img src="OIP.jpg" alt="Photo" width="128" height="128" >
+    <br>
+
+     <a href="https://www.google.co.in/"> google</a>
+     <br>
+
+    <form action="backend.php">
+        <div>
+            NAME: <input type="text" name="myname">
+        </div>
+        <br>
+        <div>
+            ROLLNO: <input type="text" name="myrole">
+        </div>
+        <br>
+
+        <div>
+            EMAIL : <input type="email" name="myemail">
+        </div>
+
+        <br>
+
+        <div>
+            DOB :<input type="date" name="date">
+        </div>
+        <br>
+        <div>
+            GENDER : MALE<input type="radio" name="MYGENDER">FEMALE<input type="radio" name="MYGENDER">OTHERS<input
+                type="radio" name="MYGENDER">
+        </div>
+        <br>
+
+        <div>
+            DEPARTMENT :<label for="DEPARTMENT"></label>
+            <select name="MY DEPARTMENT" id="DEPARTMENT">
+                <option value="COMPUTER SCIENCE AND ENGINEERING">COMPUTER SCIENCE AND ENGINEERING</option>
+                <option value="ELECTRONICS AND COMUCATIONAL ENGINEERING">ELECTRONICS AND COMUCATIONAL ENGINEERING
+                </option>
+                <option value="MECHANICAL ENGINEERING">MECHANICAL ENGINEERING</option>
+                <option value="CIVIL ENGINEERING">CIVIL ENGINEERING</option>
+            </select>
+        </div>
+        <br>
+
+
+        <div class="class2">
+            Write about yourself <br><textarea name="myself" cols="30" rows="10"></textarea>
+        </div>
+
+        <br>
+        <div>
+            Tick the box if you enter all information right :<input type="checkbox" name="MYCHECKBOX">
+        </div>
+        <br>
+        <div>
+            <input type="submit" name="submit">
+            <input type="reset" name="RESET">
+        </div>
+        <br>
+        <br>
+
+    </form>
+    <div class="class1">
+        <table>
+            <thead>
+                <tr>
+                    <th>ROLLNO</th>
+                    <th>NAME</th>
+                    <th>DEPARTMENT</th>
+                    <th>SEMESTER</th>
+                    <th>DOB</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>CO21393</td>
+                    <td>RAHUL KUMAR</td>
+                    <td>COMPUTER SCIENCE</td>
+                    <td>4TH</td>
+                    <td>22/04/2003</td>
+
+                </tr>
+                <tr>
+                    <td>CO22476</td>
+                    <td>JONATHAN AMARAL</td>
+                    <td>COMPUTER SCIENCE</td>
+                    <td>2ND</td>
+                    <td>17/06/2001</td>
+
+                </tr>
+                <tr>
+                    <td>CO20234</td>
+                    <td>SANIYA BANSAL</td>
+                    <td>MECHANICAL ENGINEERING</td>
+                    <td>5TH</td>
+                    <td>09/07/2004</td>
+
+                </tr>
+                <tr>
+                    <td>CO21345</td>
+                    <td>CARRY MINATI</td>
+                    <td>CIVIL ENGINEERING</td>
+                    <td>5TH</td>
+                    <td>22/04/2003</td>
+
+                </tr>
+                <tr>
+                    <td>CO19265</td>
+                    <td>BHUVAN BAMM</td>
+                    <td>COMPUTER SCIENCE</td>
+                    <td>6TH</td>
+                    <td>07/11/2000</td>
+
+                </tr>
+                <tr>
+                    <td>CO23234</td>
+                    <td>SCOUT </td>
+                    <td>MECHANICAL ENGINEERING</td>
+                    <td>1TH</td>
+                    <td>12/02/2005</td>
+
+                </tr>
+            </tbody>
+
+
+
+
+        </table>
+    </div>
+
+
+</body>
+
+</html>
