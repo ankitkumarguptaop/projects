@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+  background-image: url(images/header.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+#heading{
+    max-width: 780px;
+    font-size: 50px ;
+    color: aliceblue;
+}
+#profile {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  width:100%;
+}
+
+#profile-pic {
+  background-image: url("images/vrk.png");
+  background-size: cover;
+  background-position:center;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  border: 1px solid white;
+}
+
+#profile-text {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  line-height: 24px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+.item-header {
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  margin-top: 100px;
+}
+
+
+.item-number {
+  position:absolute;
+  right:100%;
+}
+
+.item-text{
+ 
+  text-align: justify;
+  padding-left: 270px;
+  padding-right: 270px;
+
+}
+.img{
+   border: 2px solid black;
+  width: 1000px;
+  margin-bottom: 50px;
+}

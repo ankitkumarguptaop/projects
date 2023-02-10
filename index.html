@@ -2,152 +2,110 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="newSTYLE.css">
-    <title>lab2</title>
-
-
-
-    <!-- table ,image , form  -->
-    <!-- table class (roll no , name , semester, department ) -->
-    <!-- form name ,semester, department, phoneno, email ,submit  -->
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="project2.css">
+  <title>Practical-2 web dev</title>
 </head>
 
+
 <body>
-    <img src="OIP.jpg" alt="Photo" width="128" height="128" >
-    <br>
+  <header>
+    <h1 id="heading">TOP 4 FOOTBALL PLAYERS IN THE WORLD</h1>
+  </header>
+  <section id="profile">
+    <section id="profile-pic"> </section>
 
-     <a href="https://www.google.co.in/"> google</a>
-     <br>
+    <section id="profile-text">
+      <strong> Ankit kumar Gupta </strong> <br />
+      <em> Last updated may 19, 2023 </em>
+    </section>
+  </section>
+<br>
+  <section>
 
-    <form action="backend.php">
-        <div>
-            NAME: <input type="text" name="myname">
+    <section id="listicle-body">
+
+      <section class="item">
+        <section class="item-number-container">
+          <section class="item-number">1.</section>
+        </section>
+        <section class="item-header">Cristiano Ronaldo </section>
+        <p class="item-text">
+        <div ><img class="img" height="600" src="images/cristiano-ronaldo-portugal-5-june-2022.jpg"> </img></div>
+      </section>
+      
+      <section class="paragraph-break"> </section>
+      <p class="item-text">
+        Pop Tea Bar isn't exactly on campus, but the Marguerite has got you covered. Ride the
+        1050A to California and El Camino and it's a short walk from there. (11 minutes total
+        from the Gates Computer Science Building!) Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum earum porro eos minus nesciunt repellat, minima laborum libero natus repellendus ab consequatur corporis animi commodi inventore laudantium magni tenetur. Odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum at modi laborum! Qui totam excepturi exercitationem harum provident, odio Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi eligendi voluptate inventore optio voluptatum, nam, sit accusamus quam mollitia veniam autem beatae vel possimus, fugiat iure tempora voluptas cumque expedita hic cum accusantium quasi rerum temporibus. Ab quos illo possimus.
+      </p>
+     
+  <br>
+  <br>
+      <section class="item">
+        <section class="item-number-container">
+          <section class="item-number">2.</section>
+        </section>
+        <section class="item-header">lionel messi</section>
+        <div ><img class="img" src="images/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.webp" >  </img>
         </div>
-        <br>
-        <div>
-            ROLLNO: <input type="text" name="myrole">
-        </div>
-        <br>
+        <section class="paragraph-break"> </section>
+        <p class="item-text">
+          When your boba craving strikes, head over to Pop Tea Bar, a cute little bubble tea shop
+          on Cambridge Avenue. The menu is your standard bubble tea fare with nothing too
+          adventurous on the menu -- no bubble tea floats, for example -- but the tapioca is
+          fresh, the service is fast, and the tea is smooth and delicious! They have little bites
+          to eat too, like popcorn chicken and eggrolls, in perfect snack-size portions. There's
+          not too much seating, but there's a cute outdoor area in the back for warmer days. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, obcaecati eum consectetur distinctio quis eos aperiam hic architecto quisquam, expedita, inventore cumque possimus. Repellendus numquam ducimus repellat veniam laudantium, maiores harum tenetur incidunt ipsam repudiandae vitae doloribus cupiditate saepe rem!
+        </p>
+      </section>
+<br>
+<br>
+      <section class="item">
+        <section class="item-number-container">
+          <section class="item-number">3.</section>
+        </section>
+        <section class="item-header">Mbappe</section>
+        <div > <img class="img" src="images/mbappe-two-16-9.webp"  </img></div>
+       
 
-        <div>
-            EMAIL : <input type="email" name="myemail">
-        </div>
+        <section class="paragraph-break"> </section>
+        <p class="item-text">
+          I can't tell you whether CoHo has a particularly amazing Vanilla Bean Latte, only
+          because CoHo is the only place I've ever ordered a Vanilla Bean Latte from. I'm not
+          even totally sure I know what a Vanilla Bean Latte is supposed to taste like. What I
+          do know is the Vanilla Bean Latte I ordered on a whim from CoHo was delicious. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ad a dolores aut et exercitationem nam quae cum natus aperiam saepe dolor mollitia, alias veritatis, minima necessitatibus. Ea, aperiam ipsum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque autem corrupti consectetur magni incidunt aliquam, quis placeat magnam tempora ut ea natus cupiditate facilis distinctio voluptas beatae neque minima dolore saepe id labore. Sint illum deserunt ipsa maiores, quaerat libero?
+        </p>
+        <section class="paragraph-break"> </section>
+      </section>
+ <br><br>
 
-        <br>
-
-        <div>
-            DOB :<input type="date" name="date">
-        </div>
-        <br>
-        <div>
-            GENDER : MALE<input type="radio" name="MYGENDER">FEMALE<input type="radio" name="MYGENDER">OTHERS<input
-                type="radio" name="MYGENDER">
-        </div>
-        <br>
-
-        <div>
-            DEPARTMENT :<label for="DEPARTMENT"></label>
-            <select name="MY DEPARTMENT" id="DEPARTMENT">
-                <option value="COMPUTER SCIENCE AND ENGINEERING">COMPUTER SCIENCE AND ENGINEERING</option>
-                <option value="ELECTRONICS AND COMUCATIONAL ENGINEERING">ELECTRONICS AND COMUCATIONAL ENGINEERING
-                </option>
-                <option value="MECHANICAL ENGINEERING">MECHANICAL ENGINEERING</option>
-                <option value="CIVIL ENGINEERING">CIVIL ENGINEERING</option>
-            </select>
-        </div>
-        <br>
-
-
-        <div class="class2">
-            Write about yourself <br><textarea name="myself" cols="30" rows="10"></textarea>
-        </div>
-
-        <br>
-        <div>
-            Tick the box if you enter all information right :<input type="checkbox" name="MYCHECKBOX">
-        </div>
-        <br>
-        <div>
-            <input type="submit" name="submit">
-            <input type="reset" name="RESET">
-        </div>
-        <br>
-        <br>
-
-    </form>
-    <div class="class1">
-        <table>
-            <thead>
-                <tr>
-                    <th>ROLLNO</th>
-                    <th>NAME</th>
-                    <th>DEPARTMENT</th>
-                    <th>SEMESTER</th>
-                    <th>DOB</th>
-                </tr>
-
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td>CO21393</td>
-                    <td>RAHUL KUMAR</td>
-                    <td>COMPUTER SCIENCE</td>
-                    <td>4TH</td>
-                    <td>22/04/2003</td>
-
-                </tr>
-                <tr>
-                    <td>CO22476</td>
-                    <td>JONATHAN AMARAL</td>
-                    <td>COMPUTER SCIENCE</td>
-                    <td>2ND</td>
-                    <td>17/06/2001</td>
-
-                </tr>
-                <tr>
-                    <td>CO20234</td>
-                    <td>SANIYA BANSAL</td>
-                    <td>MECHANICAL ENGINEERING</td>
-                    <td>5TH</td>
-                    <td>09/07/2004</td>
-
-                </tr>
-                <tr>
-                    <td>CO21345</td>
-                    <td>CARRY MINATI</td>
-                    <td>CIVIL ENGINEERING</td>
-                    <td>5TH</td>
-                    <td>22/04/2003</td>
-
-                </tr>
-                <tr>
-                    <td>CO19265</td>
-                    <td>BHUVAN BAMM</td>
-                    <td>COMPUTER SCIENCE</td>
-                    <td>6TH</td>
-                    <td>07/11/2000</td>
-
-                </tr>
-                <tr>
-                    <td>CO23234</td>
-                    <td>SCOUT </td>
-                    <td>MECHANICAL ENGINEERING</td>
-                    <td>1TH</td>
-                    <td>12/02/2005</td>
-
-                </tr>
-            </tbody>
+      <section class="item">
+        <section class="item-number-container">
+          <section class="item-number">4.</section>
+        </section>
+        <section class="item-header">Neymar</section>
+        <div > <img class="img" src="images/GettyImages-1246266511.webp" </img></div>
 
 
+        <p class="item-text">
+          Nexus Cafe has a lot of tasty things packed into its cafeteria space, including agua
+          fresca! Grab a cup of this fresh and fruity beverage before you head to the check out
+          line. Nexus Cafe has plenty of indoor and outdoor seating, too, so on the next sunny
+          day, take a break on the patio with a cup of agua fresca, and maybe a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum perspiciatis, blanditiis quibusdam, nisi fuga doloremque iste architecto ipsam ipsum nobis, officia incidunt aut minus. Numquam voluptatem possimus autem odio incidunt.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, officiis? Mollitia recusandae qui libero modi perferendis error, fuga fugit impedit sunt distinctio consectetur assumenda necessitatibus repellendus saepe quos facere nihil quia! Quam aliquid atque fuga nihil, reiciendis id dignissimos animi.
+        </p>
+      </section>
 
+    </section>
 
-        </table>
-    </div>
+  </section>
+
+</body>
+
+</html>
 
 
 </body>
